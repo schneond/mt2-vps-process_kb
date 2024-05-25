@@ -18,7 +18,7 @@
   # sysrc sshd_enable=YES
     
 
-[^1]: **Now paste those commands**
+**Now paste those commands**
 ```
 # cd / && pkg install mysql56-server-5.6.51.pkg mysql56-client-5.6.51.pkg
 # sysrc mysql_enable=YES
@@ -43,7 +43,7 @@
 ```
 **Progress**
 - [ ] Návod na instalaci FreeBSD 
-- [x] [^1]Návod na instalaci mysql5.6 :tada:
+- [x] Návod na instalaci mysql5.6 :tada:
 - [ ] Návod na kompilaci source game a server
 - [ ] Návod na rozbalení a zabalení packu klienta
 - [x] Odkaz ke stažení různých toolů :tada:
