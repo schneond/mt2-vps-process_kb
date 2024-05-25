@@ -3,7 +3,7 @@
 
 > [!TIP]
 > Používej [MobaXterm](https://mobaxterm.mobatek.net/) nebo [mRemoteNG](https://mremoteng.org/) místo Putty pro ulehčení práce.
-<details>
+
 ## Mysql 5.6 download & instalace
 Jelikož je od konce roku 2023 mysql5.6 trvale smazáno z oficiálních portů, je třeba to obejít. Tady je ke stažení kompletní **mysql5.6** client i server část a **lib**ky potřebné k rozjetí **mysql**.
 - [mysql5.6-client.pkg](https://github.com/schneond/mt2-vps-process_kb/raw/main/mysql56-client.pkg) :point_down:
@@ -37,7 +37,7 @@ Jelikož je od konce roku 2023 mysql5.6 trvale smazáno z oficiálních portů, 
  ```
 # /usr/local/bin/mysqladmin -u root password heslo 
  ```
-</details>
+
 ## FreeBSD 14
 
 - **Stáhnout** FreeBSD amd64 ISO z https://www.freebsd.org/releases (tento návod slouží pro FreeBSD 14, použité iso: [FreeBSD14](https://download.freebsd.org/releases/ISO-IMAGES/14.0/CHECKSUM.SHA256-FreeBSD-14.0-RELEASE-amd64)).
