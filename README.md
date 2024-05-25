@@ -42,7 +42,7 @@
 # chown -R mysql /var/db/mysql && chgrp -R mysql /var/db/mysql && chmod -R 777 /var/db/mysql
 ```
 
-- [ ] FreeBSD 14 na VPS nainstalováno a běží. :tada:
+- [ ] #739 FreeBSD 14 na VPS nainstalováno a běží. :tada:
 - [ ] 
 - [ ]
 - [ ]
