@@ -23,7 +23,7 @@ Jelikož je od konce roku 2023 mysql5.6 trvale smazáno z oficiálních portů, 
    sysrc sshd_enable=YES
 ```    
 
-**Teď do konzole a použít tyto příkazy**
+**Teď do konzole a použít tyto příkazy:**
 ```
 # cd / && pkg install mysql56-server-5.6.51.pkg mysql56-client-5.6.51.pkg
 # sysrc mysql_enable=YES
