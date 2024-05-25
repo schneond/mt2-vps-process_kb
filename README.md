@@ -11,14 +11,14 @@ Enable SSH access to server:
     
 
 
-cd / && pkg install mysql56-server-5.6.51.pkg mysql56-client-5.6.51.pkg
-sysrc mysql_enable=YES
-pwd_mkdb -p /etc/master.passwd
-chown -R mysql /var/db/mysql && chgrp -R mysql /var/db/mysql && chmod -R 777 /var/db/mysql
-service mysql-server start
-chmod -R 777 /var/db/mysql
-/usr/local/bin/mysqladmin -u root password maminka
-mysql -p
+    cd / && pkg install mysql56-server-5.6.51.pkg mysql56-client-5.6.51.pkg
+    sysrc mysql_enable=YES
+    pwd_mkdb -p /etc/master.passwd
+    chown -R mysql /var/db/mysql && chgrp -R mysql /var/db/mysql && chmod -R 777 /var/db/mysql
+    service mysql-server start
+    chmod -R 777 /var/db/mysql
+    /usr/local/bin/mysqladmin -u root password maminka
+    mysql -p
 
     CREATE USER 'root'@'%' IDENTIFIED BY 'maminka';
     GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' WITH GRANT OPTION;
