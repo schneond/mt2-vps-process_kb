@@ -13,25 +13,25 @@
 	    # sysrc sshd_enable=YES<br>
 	<h3>Now paste those commands:</h3>
 
-	<p># cd / && pkg install mysql56-server-5.6.51.pkg mysql56-client-5.6.51.pkg
-	<p># sysrc mysql_enable=YES
-	<p># pwd_mkdb -p /etc/master.passwd
-	<p># chown -R mysql /var/db/mysql && chgrp -R mysql /var/db/mysql && chmod -R 777 /var/db/mysql
-	<p># service mysql-server start
-	<p># chmod -R 777 /var/db/mysql
-	<p># /usr/local/bin/mysqladmin -u root password maminka
-	<p># mysql -p
+	<p># cd / && pkg install mysql56-server-5.6.51.pkg mysql56-client-5.6.51.pkg<br>
+	# sysrc mysql_enable=YES<br>
+	# pwd_mkdb -p /etc/master.passwd<br>
+	# chown -R mysql /var/db/mysql && chgrp -R mysql /var/db/mysql && chmod -R 777 /var/db/mysql<br>
+	# service mysql-server start<br>
+	# chmod -R 777 /var/db/mysql<br>
+	# /usr/local/bin/mysqladmin -u root password maminka<br>
+	# mysql -p</p>
 
-	<p>    CREATE USER 'root'@'%' IDENTIFIED BY 'maminka';
-	<p>    GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' WITH GRANT OPTION;
-	<p>    flush privileges;
-	    
-	<p>    CREATE USER 'kaja'@'localhost' IDENTIFIED BY '787898';
-	<p>    GRANT ALL PRIVILEGES ON *.* TO 'mt2'@'localhost' WITH GRANT OPTION;
-	<p>    flush privileges;
-	<p>    quit
+	<p>    CREATE USER 'root'@'%' IDENTIFIED BY 'maminka';<br>
+	    GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' WITH GRANT OPTION;<br>
+	    flush privileges;<br>
+	    <br>
+	    CREATE USER 'kaja'@'localhost' IDENTIFIED BY '787898';<br>
+	    GRANT ALL PRIVILEGES ON *.* TO 'mt2'@'localhost' WITH GRANT OPTION;<br>
+	    flush privileges;<br>
+	    quit</p>
 
-	<p># cd / && tar zxvf mysqlTRI.gz
-	<p># chown -R mysql /var/db/mysql && chgrp -R mysql /var/db/mysql && chmod -R 777 /var/db/mysql
+	<p># cd / && tar zxvf mysqlTRI.gz<br>
+	# chown -R mysql /var/db/mysql && chgrp -R mysql /var/db/mysql && chmod -R 777 /var/db/mysql</p>
 </body>
 </html>
