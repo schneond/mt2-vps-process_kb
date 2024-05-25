@@ -5,16 +5,15 @@
 > Používej [MobaXterm](https://mobaxterm.mobatek.net/) nebo [mRemoteNG](https://mremoteng.org/) místo Putty pro ulehčení práce.
 
 ## Mysql 5.6 download
-[mysql5.6-client.pkg]
-(https://github.com/schneond/mt2-vps-process_kb/raw/main/mysql56-client.pkg)
-[mysql5.6-server.pkg]
-(https://github.com/schneond/mt2-vps-process_kb/raw/main/mysql56-server.pkg)
-[mysql5.6 libs 64bit]
-(https://github.com/schneond/mt2-vps-process_kb/raw/main/mysql56-server.pkg)
+- [mysql5.6-client.pkg](https://github.com/schneond/mt2-vps-process_kb/raw/main/mysql56-client.pkg) :point_down:
+
+- [mysql5.6-server.pkg](https://github.com/schneond/mt2-vps-process_kb/raw/main/mysql56-server.pkg) :point_down:
+
+- [mysql5.6 libs 64bit](https://github.com/schneond/mt2-vps-process_kb/raw/main/mysql56-server.pkg) :point_down:
 
 ## FreeBSD 14
 
-- **Download** FreeBSD amd64 ISO file from https://www.freebsd.org/releases (this manual is for FreeBSD 14, iso used: https://download.freebsd.org/releases/ISO-IMAGES/14.0/CHECKSUM.SHA256-FreeBSD-14.0-RELEASE-amd64).
+- **Download** FreeBSD amd64 ISO file from https://www.freebsd.org/releases (this manual is for FreeBSD 14, iso used: [FreeBSD14](https://download.freebsd.org/releases/ISO-IMAGES/14.0/CHECKSUM.SHA256-FreeBSD-14.0-RELEASE-amd64)).
 - Install system (manual in progres...), add user/s, setup IPv4/IPv6.
 - Log into server after the instalation via root user.
 - Enable SSH access to server:
