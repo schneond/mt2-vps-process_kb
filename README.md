@@ -26,13 +26,17 @@ Jelikož je od konce roku 2023 mysql5.6 trvale smazáno z oficiálních portů, 
  ```
   ```
 # chown -R mysql /var/db/mysql && chgrp -R mysql /var/db/mysql && chmod -R 777 /var/db/mysql
- ``` ```
+ ```
+ ```
 # service mysql-server start
- ``` ```
+ ```
+ ```
 # chmod -R 777 /var/db/mysql
- ``` ```
-# /usr/local/bin/mysqladmin -u root password maminka 
-  ```
+ ```
+ Zde místo **heslo** použít cokoliv chceš používat k přihlašování do mysql.
+ ```
+# /usr/local/bin/mysqladmin -u root password heslo 
+ ```
 ## FreeBSD 14
 
 - **Stáhnout** FreeBSD amd64 ISO z https://www.freebsd.org/releases (tento návod slouží pro FreeBSD 14, použité iso: [FreeBSD14](https://download.freebsd.org/releases/ISO-IMAGES/14.0/CHECKSUM.SHA256-FreeBSD-14.0-RELEASE-amd64)).
