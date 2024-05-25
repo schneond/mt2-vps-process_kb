@@ -1,4 +1,4 @@
-# mt2-vps-process_kb
+# Installation of metin2 on VPS [FreeBSD 14]
 > KB for setting up VPS to run mt2 server
 
 > [!TIP]
