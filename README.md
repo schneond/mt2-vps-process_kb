@@ -1,5 +1,5 @@
 # mt2-vps-process_kb
- KB for setting up VPS to run mt2 server
+> KB for setting up VPS to run mt2 server
 
 # Mysql 5.6 download
 [mysql5.6-client.pkg]
