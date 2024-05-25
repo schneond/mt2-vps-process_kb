@@ -50,7 +50,7 @@ Jelikož je od konce roku 2023 mysql5.6 trvale smazáno z oficiálních portů, 
 ![MobaXterm](/assets/mobaxterm.png)
 
 ### Základní FreeBSD příkazy
-| Command | Description |
+| Příkaz | Popis |
 | --- | --- |
 | `cd` | Za 'cd' přidat cestu do jaké složky chceš jít |
 | `pwd` | Zobrazí v jaké složce se náchážíš |
