@@ -15,15 +15,15 @@ Jelikož je od konce roku 2023 mysql5.6 trvale smazáno z oficiálních portů, 
 > Pomocí WinSCP přenes všechny 3 soubory mysql do složky **/**.
 ## FreeBSD 14
 
-- **Download** FreeBSD amd64 ISO file from https://www.freebsd.org/releases (this manual is for FreeBSD 14, iso used: [FreeBSD14](https://download.freebsd.org/releases/ISO-IMAGES/14.0/CHECKSUM.SHA256-FreeBSD-14.0-RELEASE-amd64)).
-- Install system (manual in progres...), add user/s, setup IPv4/IPv6.
-- Log into server after the instalation via root user.
-- Enable SSH access to server:
+- **Stáhnout** FreeBSD amd64 ISO z https://www.freebsd.org/releases (tento návod slouží pro FreeBSD 14, použité iso: [FreeBSD14](https://download.freebsd.org/releases/ISO-IMAGES/14.0/CHECKSUM.SHA256-FreeBSD-14.0-RELEASE-amd64)).
+- Instalovat systém (návod se vytváří...), přidat uživatele, nastavit IPv4/IPv6.
+- Po nainstalování se přihlásit jako **root** uživatel.
+- Povolit SSH přístup:
  ```
    sysrc sshd_enable=YES
 ```    
 
-**Now paste those commands to console**
+**Teď do konzole a použít tyto příkazy**
 ```
 # cd / && pkg install mysql56-server-5.6.51.pkg mysql56-client-5.6.51.pkg
 # sysrc mysql_enable=YES
