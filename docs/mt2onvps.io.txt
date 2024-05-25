@@ -1,0 +1,1 @@
+cd / && pkg install mysql56-server-5.6.51.pkg mysql56-client-5.6.51.pkg
