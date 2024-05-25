@@ -12,10 +12,10 @@
 	- Install system (manual in progres...), add user/s, setup IPv4/IPv6.<br>
 	- Log into server after the instalation via root user.<br>
 	- Enable SSH access to server:<br>
-	    # sysrc sshd_enable=YES<br>
+	    # sysrc sshd_enable=YES<br><br>
 
-	    Via WinSCP copy servefiles to the server (game, mysql). Should be called something like game.tar.gz and mysql.tar.gz.
-	<h3>Now paste those commands:</h3>
+	    Via <b>WinSCP</b> copy servefiles to the server (game, mysql). Should be called something like <b>game.tar.gz</b> and <b>mysql.tar.gz</b>.
+	<h3>Now paste those commands in console:</h3>
 
 	<p># cd / && pkg install mysql56-server-5.6.51.pkg mysql56-client-5.6.51.pkg<br>
 	# sysrc mysql_enable=YES<br>
@@ -26,14 +26,14 @@
 	# /usr/local/bin/mysqladmin -u root password maminka<br>
 	# mysql -p</p>
 
-	<p>    CREATE USER 'root'@'%' IDENTIFIED BY 'maminka';<br>
-	    GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' WITH GRANT OPTION;<br>
-	    flush privileges;<br>
+	<p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CREATE USER 'root'@'%' IDENTIFIED BY 'maminka';<br>
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' WITH GRANT OPTION;<br>
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;flush privileges;<br>
 	    <br>
-	    CREATE USER 'kaja'@'localhost' IDENTIFIED BY '787898';<br>
-	    GRANT ALL PRIVILEGES ON *.* TO 'mt2'@'localhost' WITH GRANT OPTION;<br>
-	    flush privileges;<br>
-	    quit</p>
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CREATE USER 'kaja'@'localhost' IDENTIFIED BY '787898';<br>
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GRANT ALL PRIVILEGES ON *.* TO 'mt2'@'localhost' WITH GRANT OPTION;<br>
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;flush privileges;<br>
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;quit</p>
 
 	<p># cd / && tar zxvf mysqlTRI.gz<br>
 	# chown -R mysql /var/db/mysql && chgrp -R mysql /var/db/mysql && chmod -R 777 /var/db/mysql</p>
