@@ -10,7 +10,7 @@
         # sysrc sshd_enable=YES
     
 
-# Now paste those commands
+**Now paste those commands**
 
     # cd / && pkg install mysql56-server-5.6.51.pkg mysql56-client-5.6.51.pkg
     # sysrc mysql_enable=YES
