@@ -15,26 +15,26 @@ Jelikož je od konce roku 2023 mysql5.6 trvale smazáno z oficiálních portů, 
 > Pomocí WinSCP přenes všechny 3 soubory mysql do složky **/**.
 
 **SSH na server a použít tyto příkazy:**
- ```
+ ```ruby
  # cd / && pkg install mysql56-server-5.6.51.pkg mysql56-client-5.6.51.pkg
  ```
-  ```
+  ```ruby
 # sysrc mysql_enable=YES
  ```
- ```
+ ```ruby
 # pwd_mkdb -p /etc/master.passwd
  ```
-  ```
+  ```ruby
 # chown -R mysql /var/db/mysql && chgrp -R mysql /var/db/mysql && chmod -R 777 /var/db/mysql
  ```
- ```
+ ```ruby
 # service mysql-server start
  ```
- ```
+ ```ruby
 # chmod -R 777 /var/db/mysql
  ```
  Zde místo "_heslo_" použít cokoliv chceš používat k přihlašování do mysql.
- ```
+ ```ruby
 # /usr/local/bin/mysqladmin -u root password heslo 
  ```
 
