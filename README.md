@@ -46,6 +46,9 @@ Jelikož je od konce roku 2023 mysql5.6 trvale smazáno z oficiálních portů, 
 # cd / && tar zxvf mysqlTRI.gz
 # chown -R mysql /var/db/mysql && chgrp -R mysql /var/db/mysql && chmod -R 777 /var/db/mysql
 ```
+## Obsah serverfiles
+![MobaXterm](/assets/mobaxterm.png)
+
 **Progress**
 - [ ] Návod na instalaci FreeBSD 
 - [x] Návod na instalaci mysql5.6 :tada:
