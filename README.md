@@ -41,7 +41,7 @@
 # cd / && tar zxvf mysqlTRI.gz
 # chown -R mysql /var/db/mysql && chgrp -R mysql /var/db/mysql && chmod -R 777 /var/db/mysql
 ```
-
+**Progress**
 - [ ] Návod na instalaci FreeBSD 
 - [x] Návod na instalaci mysql5.6 :tada:
 - [ ] Návod na kompilaci source game a server
