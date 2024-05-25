@@ -15,8 +15,9 @@
 - Install system (manual in progres...), add user/s, setup IPv4/IPv6.
 - Log into server after the instalation via root user.
 - Enable SSH access to server:
-  # sysrc sshd_enable=YES
-    
+ ```
+   sysrc sshd_enable=YES
+```    
 
 **Now paste those commands**
 ```
