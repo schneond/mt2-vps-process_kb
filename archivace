@@ -1,0 +1,8 @@
+Archivování souborů ve FreeBSD.
+
+Rozbalení adresáře .tar.gz nebo .gz
+# tar zxvf soubor.tar.gz
+
+Zabalení adresáře jako .tar.gz nebo .gz
+# tar zxcf jmeno-adresare.tar.gz /cesta/k/adresari
+# tar zxcf jmeno-adresare.gz /cesta/k/adresari
