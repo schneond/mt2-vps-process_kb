@@ -4,7 +4,7 @@
 #Mysql 5.6 download
 [mysql5.6-client.pkg & mysql5.6-server.pkg - download](https://github.com/Schecher1/Minecraft-Server-Creator/blob/master/README.md)
 
-# FreeBSD 14
+#FreeBSD 14
 
     - **Download** FreeBSD amd64 ISO file from https://www.freebsd.org/releases (this manual is for FreeBSD 14, iso used: https://download.freebsd.org/releases/ISO-IMAGES/14.0/CHECKSUM.SHA256-FreeBSD-14.0-RELEASE-amd64).
     - Install system (manual in progres...), add user/s, setup IPv4/IPv6.
