@@ -31,7 +31,7 @@ Jelikož je od konce roku 2023 mysql5.6 trvale smazáno z oficiálních portů, 
 # chown -R mysql /var/db/mysql && chgrp -R mysql /var/db/mysql && chmod -R 777 /var/db/mysql
 # service mysql-server start
 # chmod -R 777 /var/db/mysql
-# /usr/local/bin/mysqladmin -u root password maminka <sup>Zde nastavuješ heslo do mysql (navicat)</sup>
+# /usr/local/bin/mysqladmin -u root password maminka 
 # mysql -p
 ```
         CREATE USER 'root'@'%' IDENTIFIED BY 'maminka';
