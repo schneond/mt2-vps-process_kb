@@ -1,6 +1,9 @@
 # mt2-vps-process_kb
 > KB for setting up VPS to run mt2 server
 
+> [!TIP]
+> Používej MobaXterm nebo mRemoteNG místo Putty pro ulehčení práce.
+
 # Mysql 5.6 download
 [mysql5.6-client.pkg]
 (https://github.com/schneond/mt2-vps-process_kb/raw/main/mysql56-client.pkg)
