@@ -49,12 +49,21 @@ Jelikož je od konce roku 2023 mysql5.6 trvale smazáno z oficiálních portů, 
 ## Obsah serverfiles
 ![MobaXterm](/assets/mobaxterm.png)
 
+### Základní FreeBSD příkazy
+| Command | Description |
+| --- | --- |
+| `cd` | Za 'cd' přidat cestu do jaké složky chceš jít |
+| `pwd` | Zobrazí v jaké složce se náchážíš |
+| `ls -la` | Zobrazí obsah složky ve které aktuálně jsi |
+| `nano` | Za 'nano' přidat jméno textového souboru, který chceš upravit |
+
 **Progress**
 - [ ] Návod na instalaci FreeBSD 
 - [x] Návod na instalaci mysql5.6 :tada:
 - [ ] Návod na kompilaci source game a server
 - [ ] Návod na rozbalení a zabalení packu klienta
 - [x] Odkaz ke stažení různých toolů :tada:
+
 
 
 
