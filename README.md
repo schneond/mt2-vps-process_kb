@@ -1,5 +1,5 @@
 # Installation of metin2 on VPS [FreeBSD 14]
-> KB for setting up VPS to run mt2 server
+> KB nastavení VPS pro spuštění Mt2 serveru. 
 
 > [!TIP]
 > Používej [MobaXterm](https://mobaxterm.mobatek.net/) nebo [mRemoteNG](https://mremoteng.org/) místo Putty pro ulehčení práce.
