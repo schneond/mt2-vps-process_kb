@@ -33,7 +33,7 @@ Jelikož je od konce roku 2023 mysql5.6 trvale smazáno z oficiálních portů, 
  ```
 # chmod -R 777 /var/db/mysql
  ```
- Zde místo **heslo** použít cokoliv chceš používat k přihlašování do mysql.
+ Zde místo "_heslo_" použít cokoliv chceš používat k přihlašování do mysql.
  ```
 # /usr/local/bin/mysqladmin -u root password heslo 
  ```
