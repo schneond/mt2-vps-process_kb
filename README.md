@@ -5,7 +5,7 @@
 > Používej [MobaXterm](https://mobaxterm.mobatek.net/) nebo [mRemoteNG](https://mremoteng.org/) místo Putty pro ulehčení práce.
 
 ## Mysql 5.6 download & instalace
-Jelikož je od konce roku 2023 mysql5.6 trvale smazáno z oficiálních portů, je třeba to obejít. Tady je ke stažení kompletní **mysql5.6** client i server část a **lib**ky potřebné k rozjetí **mysql**.
+Jelikož na konce roku 2023 mysql5.6 skoncila podpora a smazala se z oficialních portů, je třeba to obejít. Tady je ke stažení kompletní **mysql5.6** client i server část a **lib**ky potřebné k rozjetí **mysql**.
 - [mysql5.6-client.pkg](https://github.com/schneond/mt2-vps-process_kb/raw/main/mysql56-client.pkg) :point_down:
 
 - [mysql5.6-server.pkg](https://github.com/schneond/mt2-vps-process_kb/raw/main/mysql56-server.pkg) :point_down:
