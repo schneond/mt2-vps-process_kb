@@ -60,14 +60,14 @@ chmod -R 777 /var/db/mysql
 # mysql -p
 ```
 ```ruby
-        CREATE USER 'root'@'%' IDENTIFIED BY 'maminka';
-        GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' WITH GRANT OPTION;
-        flush privileges;
+CREATE USER 'root'@'%' IDENTIFIED BY 'maminka';
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' WITH GRANT OPTION;
+flush privileges;
         
-        CREATE USER 'kaja'@'localhost' IDENTIFIED BY '787898';
-        GRANT ALL PRIVILEGES ON *.* TO 'mt2'@'localhost' WITH GRANT OPTION;
-        flush privileges;
-        quit
+CREATE USER 'kaja'@'localhost' IDENTIFIED BY '787898';
+GRANT ALL PRIVILEGES ON *.* TO 'mt2'@'localhost' WITH GRANT OPTION;
+flush privileges;
+quit
 ```
 ```
 # cd / && tar zxvf mysqlTRI.gz
