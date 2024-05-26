@@ -16,26 +16,26 @@ Jelikož je od konce roku 2023 mysql5.6 trvale smazáno z oficiálních portů, 
 
 **SSH na server a použít tyto příkazy:**
  ```ruby
- # cd / && pkg install mysql56-server-5.6.51.pkg mysql56-client-5.6.51.pkg
+cd / && pkg install mysql56-server-5.6.51.pkg mysql56-client-5.6.51.pkg
  ```
   ```ruby
-# sysrc mysql_enable=YES
+sysrc mysql_enable=YES
  ```
  ```ruby
-# pwd_mkdb -p /etc/master.passwd
+pwd_mkdb -p /etc/master.passwd
  ```
   ```ruby
-# chown -R mysql /var/db/mysql && chgrp -R mysql /var/db/mysql && chmod -R 777 /var/db/mysql
+chown -R mysql /var/db/mysql && chgrp -R mysql /var/db/mysql && chmod -R 777 /var/db/mysql
  ```
  ```ruby
-# service mysql-server start
+service mysql-server start
  ```
  ```ruby
-# chmod -R 777 /var/db/mysql
+chmod -R 777 /var/db/mysql
  ```
  Zde místo "_heslo_" použít cokoliv chceš používat k přihlašování do mysql.
  ```ruby
-# /usr/local/bin/mysqladmin -u root password heslo 
+/usr/local/bin/mysqladmin -u root password heslo 
  ```
 
 ## FreeBSD 14
