@@ -37,7 +37,7 @@ chmod -R 777 /var/db/mysql
  ```ruby
 /usr/local/bin/mysqladmin -u root password heslo 
  ```
-
+### :tada: Nainstalováno! :tada:
 ## FreeBSD 14
 
 - **Stáhnout** FreeBSD amd64 ISO z https://www.freebsd.org/releases (tento návod slouží pro FreeBSD 14, použité iso: [FreeBSD14](https://download.freebsd.org/releases/ISO-IMAGES/14.0/CHECKSUM.SHA256-FreeBSD-14.0-RELEASE-amd64)).
