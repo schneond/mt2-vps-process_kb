@@ -44,7 +44,7 @@ chmod -R 777 /var/db/mysql
 - Instalovat systém (návod se vytváří...), přidat uživatele, nastavit IPv4/IPv6.
 - Po nainstalování se přihlásit jako **root** uživatel.
 - Povolit SSH přístup:
- ```
+ ```ruby
    sysrc sshd_enable=YES
 ```    
 
