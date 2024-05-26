@@ -58,7 +58,7 @@ chmod -R 777 /var/db/mysql
 # chmod -R 777 /var/db/mysql
 # /usr/local/bin/mysqladmin -u root password maminka 
 # mysql -p
-```
+```ruby
         CREATE USER 'root'@'%' IDENTIFIED BY 'maminka';
         GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' WITH GRANT OPTION;
         flush privileges;
