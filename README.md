@@ -89,10 +89,6 @@ Vytvoření configuračního souboru pro **PF** službu (Firewall)
 ```ruby
 nano /etc/pf.conf
 ```
-Aktivování služby **PF**
-```ruby
-pfctl -e && sysrc pf_enable=YES
-```
 Dovnitř vložit tento obsah:
 ```ruby
 # Jmeno sitove karty z ifconfig
@@ -109,6 +105,10 @@ pass out all keep state
 
 # Povoleni SSH pristupu pro specificke IPs z listu <ssh_whitelist>
 pass in on $ext_if proto tcp from <ssh_whitelist> to any port 22 flags S/SA keep state
+```
+Aktivování služby **PF**
+```ruby
+pfctl -e && sysrc pf_enable=YES
 ```
 Poslední věc, reloadnout configurační soubor. // Toto dělat pokaždé, kdy přidáš novou IP adresu
 ```ruby
