@@ -110,6 +110,13 @@ pass out all keep state
 # Povoleni SSH pristupu pro specificke IPs z listu <ssh_whitelist>
 pass in on $ext_if proto tcp from <ssh_whitelist> to any port 22 flags S/SA keep state
 ```
+Poslední věc, reloadnout configurační soubor. // Toto dělat pokaždé, kdy přidáš novou IP adresu
+```ruby
+pfctl -f /etc/pf.conf
+```
+**Hotovo** :tada:
+> [!NOTE]
+> Kontrolu o statistice vyhledání/pokusu o přihlášení/zabkovonání lze vylistovat pomocí příkazu "**pfctl -si**".
 
 **Progress**
 - [ ] Návod na instalaci FreeBSD 
