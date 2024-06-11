@@ -84,6 +84,11 @@ quit
 | `ls -la` | Zobrazí obsah složky ve které aktuálně jsi |
 | `nano` | Za 'nano' přidat jméno textového souboru, který chceš upravit |
 
+### Nastavení připojení pouze pro specifické IPs
+```ja
+nano /etc/pf.conf
+```
+
 **Progress**
 - [ ] Návod na instalaci FreeBSD 
 - [x] Návod na instalaci mysql5.6 :tada:
