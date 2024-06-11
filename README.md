@@ -85,8 +85,30 @@ quit
 | `nano` | Za 'nano' přidat jméno textového souboru, který chceš upravit |
 
 ### Nastavení připojení pouze pro specifické IPs
-```ja
+Vytvoření configuračního souboru pro **PF** službu (Firewall)
+```ruby
 nano /etc/pf.conf
+```
+Aktivování služby **PF**
+```ruby
+pfctl -e && sysrc pf_enable=YES
+```
+Dovnitř vložit tento obsah:
+```ruby
+# Jmeno sitove karty z ifconfig
+ext_if="vtnet0"
+
+# Zde pridat svou IP adresu, aby ses dostal pres SSH dovnitr
+table <ssh_whitelist> { xx.xxx.xxx.xx, xx.xxx.xxx.xx }
+
+# Defaultni nastaveni blokace vsech IPs
+block in all
+
+# Povoleni odchoziho pripojeni vsech IPs
+pass out all keep state
+
+# Povoleni SSH pristupu pro specificke IPs z listu <ssh_whitelist>
+pass in on $ext_if proto tcp from <ssh_whitelist> to any port 22 flags S/SA keep state
 ```
 
 **Progress**
